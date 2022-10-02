@@ -82,6 +82,7 @@ def manual_input(col1):
 
 def sample_data(col1):
 	path = Path().absolute()
+	st.write(path)
 	
 	list_sample = {
 		"Iris Species": f"{path}/src/sample_data/Iris.csv",

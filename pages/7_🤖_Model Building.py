@@ -17,9 +17,11 @@ try:
 
 except KeyError:
 	st.header("No Dataset Found")
+	st.stop()
 
 except Exception as e:
 	st.warning(e)
+	st.stop()
 
 menus = ["Build Model", "Model Report", "Model Prediction", "Delete Model"]
 tabs = st.tabs(menus)

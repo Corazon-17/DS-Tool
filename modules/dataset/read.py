@@ -85,8 +85,8 @@ def sample_data(col1):
 	st.write(path)
 	
 	list_sample = {
-		"Iris Species": f"{path}/src/sample_data/Iris.csv",
-		"Titanic Dataset": f"{path}/src/sample_data/train.csv"
+		"Iris Species": f"{path}/sample_data/Iris.csv",
+		"Titanic Dataset": f"{path}/sample_data/train.csv"
 	}
 
 	sample = col1.selectbox(

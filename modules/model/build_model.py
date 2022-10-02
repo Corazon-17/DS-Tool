@@ -6,7 +6,6 @@ from modules.model import classification
 def build_model(dataset, models):
 	data_opt = dataset.list_name()
 	default_idx = st.session_state["default_dataset_idx"]
-	st.write(len(data_opt))
 
 	col1, col2, col3 = st.columns(3)
 	train_name = col1.selectbox(

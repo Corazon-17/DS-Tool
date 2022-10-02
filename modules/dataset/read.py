@@ -85,7 +85,7 @@ def sample_data(col1):
 	
 	list_sample = {
 		"Iris Species": f"{path}/sample_data/Iris.csv",
-		"Titanic Dataset": f"{path}/sample_data/train.csv"
+		"Titanic Dataset": f"{path}/sample_data/titanic.csv"
 	}
 
 	sample = col1.selectbox(

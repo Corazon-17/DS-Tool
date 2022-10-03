@@ -52,9 +52,9 @@ class Creator:
 
 			exec(code, globals(), result_dict)
 
-			result = result_dict["result"][self.column]
+			result = result_dict["result"][self.column].astype(int)
 
-		X_temp[self.column] = result.astype(int)
+		X_temp[self.column] = result
 
 		return X_temp
 
